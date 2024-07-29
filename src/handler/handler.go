@@ -52,6 +52,9 @@ func Scrape(c *fiber.Ctx) error {
 		ul := e.ChildText("ul>li")
 
 		ul = strings.TrimSpace(ul)
+
+		// TODO
+		// Store quotes into db.
 	})
 
 	// Visit the URL and start scraping
